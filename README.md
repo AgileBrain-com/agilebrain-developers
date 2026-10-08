@@ -45,4 +45,4 @@ Contact AgileBrain at [agilebrain.com/contact-us](https://agilebrain.com/contact
 
 ## License
 
-Copyright 2026 AgileBrain, Inc. The documentation and examples in this repository are licensed under the Apache License 2.0; see [`LICENSE`](LICENSE). The license covers the files in this repository only and grants no rights to the AgileBrain service, name, or marks.
+Copyright 2026 Leading Indicator Systems, Inc. (d/b/a AgileBrain). The documentation and examples in this repository are licensed under the Apache License 2.0; see [`LICENSE`](LICENSE). The license covers the files in this repository only and grants no rights to the AgileBrain service, name, or marks.

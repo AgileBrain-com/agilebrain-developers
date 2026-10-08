@@ -39,13 +39,12 @@ Content-Type: application/json
 | `session.deploymentId` | string | The exercise the session belongs to |
 | `session.needScores` | object | Score name to number. Null on `session.created`. |
 
-Payloads can include more fields than shown. Ignore fields you do not use.
+Payloads can include more fields than shown, such as participant details your exercise collects. Ignore fields you do not use.
 
 ## Handling Deliveries
 
 - One webhook receives events for every exercise in your organization. Filter on `event` and `session.deploymentId`.
-- Respond with any 2xx status within 10 seconds. Store the payload and process it after you respond.
-- The Hub sends each event once. Keep your receiver available.
+- Keep your receiver available and respond with any 2xx status within 10 seconds. Store the payload and process it after you respond.
 - Keep your webhook path secret and accept only participant IDs your server issued.
 
 ## Scores
